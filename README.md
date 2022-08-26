@@ -19,7 +19,7 @@ This is a stylish qr code component that can be used in all sorts of layouts.
 
 ### Screenshot
 
-![](./images/qrcode-screenshot.jpg)
+![](./images/qrcode-screenshot.png)
 
 ### Links
 
