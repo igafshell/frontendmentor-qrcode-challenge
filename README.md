@@ -40,7 +40,7 @@ Then I started with the css. First, I centered the `<main>` using flexbox on the
 
 ### What I learned
 
-I learned how to use basic flexbox proprieties and how to arrange elements inside a container using flexbox, paddings and margins. Also, I learned how to use [frontendmentor.com](frontendmentor.com), which has been a very interesting experience, and learn how to use Git and GitHub, as I haven't used them before.
+I learned how to use basic flexbox proprieties and how to arrange elements inside a container using flexbox, paddings and margins. Also, I learned how to use [frontendmentor.com](frontendmentor.com), which has been a very interesting experience, and learn how to use Git and GitHub, which I haven't used before.
 
 ### Continued development
 
