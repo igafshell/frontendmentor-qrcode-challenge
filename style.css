@@ -22,16 +22,17 @@ body {
 }
 
 main {
+	/* Styling */
 	background-color: white;
-	border-radius: 15px;
+	border-radius: 20px;
 
+	/* Aligning */
 	display: flex;
-	flex-wrap: wrap;
 	flex-direction: column;
-	justify-content: center;
-	align-items: center;
 	text-align: center;
 	padding: 15px;
+
+	/* Sizing */
 	width: 320px;
 }
 
@@ -42,6 +43,7 @@ main > img {
 }
 
 .text {
+	/* this is to make the <div .text> fit correctly in the <main>*/
 	margin: 15px;
 }
 
@@ -53,6 +55,6 @@ main > img {
 
 .text > p {
 	color: hsl(220, 15%, 55%);
-	margin-bottom: 15px;
+	margin-bottom: 10px;
 	font-weight: 400;
 }
