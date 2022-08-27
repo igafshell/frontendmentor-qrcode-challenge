@@ -34,6 +34,7 @@ main {
 
 	/* Sizing */
 	width: 320px;
+	box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.2);
 }
 
 main > img {
@@ -59,4 +60,21 @@ main > img {
 	font-weight: 400;
 }
 
-/* test */
+footer {
+	/* Positioning */
+	position: absolute;
+	bottom: 0;
+
+	/* Styling */
+	padding: 1rem 10%;
+	background: white;
+	margin-bottom: 15px;
+	border-radius: 100px;
+	box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+	footer {
+		padding: 1rem;
+	}
+}
