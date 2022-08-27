@@ -23,7 +23,6 @@ This is a stylish qr code component that can be used in all sorts of layouts.
 
 ### Links
 
-- Repo URL: [Here](https://github.com/igafshell/frontendmentor-qrcode-challenge)
 - Live Site URL: [Here](https://igafshell.github.io/frontendmentor-qrcode-challenge/)
 
 ## My process
