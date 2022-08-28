@@ -13,11 +13,13 @@ body {
 	font-size: 15px;
 
 	/* Sizing */
-	height: 100vh;
+	min-height: 100vh;
 
 	/* Display */
-	display: flex;
-	justify-content: center;
+
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+	justify-items: center;
 	align-items: center;
 }
 
@@ -33,9 +35,24 @@ main {
 	padding: 15px;
 
 	/* Sizing */
-	width: 320px;
+	max-width: 20rem;
+	height: max-content;
 	box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.2);
 }
+
+footer {
+	/* Styling */
+	background: white;
+	padding: 1rem;
+	margin: 15px;
+	border-radius: 100px;
+	box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.2);
+
+	justify-self: stretch;
+	text-align: center;
+}
+
+/* Card styling */
 
 main > img {
 	width: 100%;
@@ -58,23 +75,4 @@ main > img {
 	color: hsl(220, 15%, 55%);
 	margin-bottom: 10px;
 	font-weight: 400;
-}
-
-footer {
-	/* Positioning */
-	position: absolute;
-	bottom: 0;
-
-	/* Styling */
-	padding: 1rem 10%;
-	background: white;
-	margin-bottom: 15px;
-	border-radius: 100px;
-	box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.2);
-}
-
-@media (max-width: 768px) {
-	footer {
-		padding: 1rem;
-	}
 }
